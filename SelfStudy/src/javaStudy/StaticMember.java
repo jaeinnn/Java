@@ -2,6 +2,16 @@ package javaStudy;
 
 import java.util.Scanner;
 
+/* static 메소드의 제약조건 
+
+*static 메소드는 static 멤버만 접근할 수 있다
+: static 메소드는, 객체 없이도 존재하기 때문에, 객체와 함께
+생성되는 non-static멤버를 사용할 수 없고 static 멤버들만 사용 가능하다.
+반면 non-static메소드는 static멤버들을 사용할 수 있다
+
+*static 메소드는 this를 사용할 수 없다 
+: static 메소드는, 객체 없이도 존재하기 때문에, this를 사용할 수 없다.
+ */
 
 
 public class StaticMember{
