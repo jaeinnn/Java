@@ -31,5 +31,7 @@ public class HashMapScoreEx {
 	
 		
 	}
+	
+	//*****출력된 결과는 삽입된 순서와는 다르다*****
 
 }
