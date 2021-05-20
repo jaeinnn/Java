@@ -2,7 +2,7 @@ package javaStudy;
 import java.util.*; 
 
 //예제 7-6
-//해시맵을 이용하여 학생의 이름과 자바 점수를 기록 관리하는 프로그램을 작성하라 
+/*해시맵을 이용하여 학생의 이름과 자바 점수를 기록 관리하는 프로그램을 작성하라 */
 
 public class HashMapScoreEx {
 	public static void main(String[] args){
