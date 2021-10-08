@@ -1,36 +1,22 @@
 package javaStudy;
 
-//다음 코드는 2개의 생성자를 가진 Circle클래스이다.실행 결과는 무엇인가? 
+//프로그래밍언어론 202034-365046 김재인
 public class Circle {
 	int radius; //원의 반지름 필드
 	String name; //원의 이름 필드 
 	
-	public Circle() { //매개변수 없는 생성자
-		radius = 1; name = ""; //필드 초기화 
-	} 
-	
-	public Circle(int r, String n) { //매개변수를 가진 생섯ㅇ자
-		radius = r; name = n; //매개변수로 필드 초기화 
-		//생성자는 radius와 name필드를 초기화한 것
-	}
-//생성자로 객체를 만들면 초기값을 지정할 수 있다		
-	
+	public Circle() {} //생성자 
 	
 	public double getArea() { //원의 면적 계산 메소드
 		return 3.14*radius*radius; 
 	}
 	
 	public static void main(String[] args) {
-		Circle pizza = new Circle(10, "자파피자"); 
-		//객체 생성. 반지름을 10으로, 이름을 "자바피자"로 초기화
-		
-		double area = pizza.getArea();
+		Circle pizza ; //레퍼런스 변수 pizza 선언
+		pizza = new Circle(); //Circle 객체 생성 
+		pizza.radius = 10; //피자의 반지름을 10으로 설정
+		pizza.name="치즈피자"; //피자의 이름 설정
+		double area = pizza.getArea(); //피자의 면적 알아내기
 		System.out.println(pizza.name + "의 면적은 " + area);
-		
-		Circle donut = new Circle(); //객체 생성. 반지름을 1, 이름을 ""로 초기화 
-		donut.name = "도넛피자"; //이름 변경
-		area = donut.getArea();
-		System.out.println(donut.name + "의 면적은 " + area);
 	}
-
 }

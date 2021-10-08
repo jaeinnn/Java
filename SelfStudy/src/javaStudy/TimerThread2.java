@@ -1,6 +1,6 @@
 package javaStudy;
 
- class TimerThread extends Thread { //Thread 상속받음 
+ class TimerThread2 extends Thread { //Thread 상속받음 
 	 
 	 int n = 0; 
 	 

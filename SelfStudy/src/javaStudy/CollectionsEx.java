@@ -3,7 +3,7 @@ import java.util.*;
 
 //예제 7-8
 //Collections클래스를 활용하여 문자열 정렬, 반대로 정렬, 이진 검색을 실행하는 사례를 살펴보자
-public class CollectionsEx {
+/*public class CollectionsEx {
 	static void printList(LinkedList<String> l) { //리스트의 요소를 모두 출력하는 메소드
 		Iterator<String> iterator = l.iterator(); //Iterator 객체리턴
 		while(iterator.hasNext()) { //Iterator 객체에 요소가 있을 때까지 반복
@@ -16,7 +16,7 @@ public class CollectionsEx {
 			System.out.print(e+separator);		
 		}
 	}
-	
+	*/
 	public static void main(String[] args) {
 		LinkedList<String> myList = new LinkedList<String>(); //빈 리스트 생성
 		myList.add("트랜스포머"); 

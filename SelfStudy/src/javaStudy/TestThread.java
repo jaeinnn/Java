@@ -2,7 +2,7 @@ package javaStudy;
 
 public class TestThread {
 	public static void main(String[] args) {
-		TimerThread th = new TimerThread();
+		TimerThread2 th = new TimerThread2();
 		th.start();
 	}
 }
